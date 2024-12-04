@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import logo from "./images/SNITCH_LOGO_NEW_BLACK.png";
+import menu from "./images/menu.png";
 
 const App = () => {
   return (
@@ -15,10 +17,10 @@ const App = () => {
 
       <nav>
         <div id="bar">
-          <img src="./menu.png" alt="Menu" />
+          <img src={menu} alt="Menu"/>
         </div>
         <div id="snitch-logo">
-          <img src="./SNITCH_LOGO_NEW_BLACK.png" alt="Logo" />
+          <img src={logo} alt="Logo"/>
         </div>
         <div id="nav-right">
           <i className="fa-regular fa-user"></i>
